@@ -18,3 +18,5 @@ export const company = {
     "Visualize your decisions",
   ],
 };
+
+export const socialMedia = ["facebook", "twitter", "linkedin", "instagram"];

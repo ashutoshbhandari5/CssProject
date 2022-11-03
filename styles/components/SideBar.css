@@ -17,7 +17,6 @@
 
 .links {
   display: flex;
-  justify-content: center;
   line-height: 4;
 }
 
@@ -61,4 +60,34 @@
 }
 .close::after {
   transform: rotate(-45deg);
+}
+
+.subscribe {
+  margin-top: 3em;
+  text-align: center;
+}
+
+.subscribe > input {
+  padding: 0.5em;
+}
+
+.subscribe > input:focus {
+  outline: none;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  margin-left: 25%;
+}
+
+.connect {
+  text-align: center;
+  margin-top: 5em;
+}
+.social-network {
+  margin-top: 1em;
+  justify-content: center;
+  display: flex;
 }

@@ -1,0 +1,47 @@
+.sidebar {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 50%;
+  background-color: black;
+  color: white;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  line-height: 4;
+}
+
+.close {
+  cursor: pointer;
+  overflow: hidden;
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  border: none;
+  padding: 0;
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  background: transparent;
+  color: white;
+  font: inherit;
+  text-indent: 100%;
+  cursor: pointer;
+}
+
+.close::before,
+.close::after {
+  position: absolute;
+  top: 15%;
+  left: 1em;
+  width: 0.125em;
+  height: 70%;
+  border-radius: 0.125em;
+  transform: rotate(45deg);
+  background: white;
+  content: "";
+}
+.close::after {
+  transform: rotate(-45deg);
+}

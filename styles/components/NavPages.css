@@ -1,0 +1,12 @@
+.navPages {
+  list-style: none;
+  margin-right: 2.5em;
+}
+
+.navPages > li {
+  cursor: pointer;
+}
+
+.navPages > li:hover {
+  opacity: 0.8;
+}

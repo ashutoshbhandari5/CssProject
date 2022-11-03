@@ -9,6 +9,7 @@
 }
 
 .hero::before {
+  background-color: black;
   content: "";
   position: absolute;
   top: 0;
@@ -16,17 +17,16 @@
   bottom: 0;
   right: 0;
   opacity: 0.5;
-  background-color: black;
 }
 li {
   list-style: none;
 }
 .content {
-  height: 100%;
-  width: 100%;
   position: absolute;
   top: 0;
   left: 0;
+  height: 100%;
+  width: 100%;
   color: white;
   display: flex;
   flex-direction: column;
@@ -34,20 +34,9 @@ li {
   padding-top: 5em;
 }
 
-.content {
-  display: flex;
-}
-
-.content > div .benefits {
+.bullets {
   padding: 0.5em;
   border-radius: 4px;
-  background-color: #39cc85;
-  margin-bottom: 0.5em;
-}
-.content > div .company {
-  padding: 0.5em;
-  border-radius: 4px;
-  background-color: black;
 }
 
 @media screen and (min-width: 50em) {

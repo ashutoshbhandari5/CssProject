@@ -1,8 +1,8 @@
 .hamburger-lines {
+  cursor: pointer;
   display: block;
   height: 20px;
   width: 32px;
-  position: absolute;
   top: 17px;
   left: 20px;
   display: flex;
@@ -16,4 +16,10 @@
   width: 100%;
   border-radius: 10px;
   background: #0e2431;
+}
+
+@media screen and (min-width: 31.5em) {
+  .hamburger-lines {
+    display: none;
+  }
 }

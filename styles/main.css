@@ -2,4 +2,5 @@
 @import url("./components/Hamburger.css");
 @import url("./components//SideBar.css");
 @import url("./Pages/home.css");
-@import url("./components/NavPages.css");
+@import url("./components/common/NavPages.css");
+@import url("./components/Hero.css");

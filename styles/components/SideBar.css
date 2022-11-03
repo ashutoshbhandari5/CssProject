@@ -2,14 +2,31 @@
   height: 100vh;
   position: fixed;
   top: 0;
-  left: 0;
   width: 50%;
   background-color: black;
   color: white;
   z-index: 3;
+  transition: all ease-out 0.3s;
+}
+
+.sidebar > h1 {
+  font-size: 1em;
+  margin-top: 1.4em;
+  margin-left: 1em;
+}
+
+.links {
   display: flex;
   justify-content: center;
   line-height: 4;
+}
+
+.show {
+  left: 0;
+}
+
+.hidden {
+  left: -100%;
 }
 
 .close {

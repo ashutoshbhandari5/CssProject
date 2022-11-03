@@ -1,0 +1,20 @@
+.navPages {
+  list-style: none;
+}
+
+.navPages > li {
+  cursor: pointer;
+  margin: 0 1em 0 1em;
+}
+
+.navPages > li:hover {
+  opacity: 0.8;
+}
+
+@media screen and (min-width: 31.5em) {
+  .navPages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

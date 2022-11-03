@@ -1,0 +1,68 @@
+.hero {
+  position: relative;
+  margin: 0;
+  background: url("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fGJ1c2luZXNzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 90vh;
+  background-position: center center;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0.5;
+  background-color: black;
+}
+li {
+  list-style: none;
+}
+.content {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5em;
+}
+
+.content {
+  display: flex;
+}
+
+.content > div .benefits {
+  padding: 0.5em;
+  border-radius: 4px;
+  background-color: #39cc85;
+  margin-bottom: 0.5em;
+}
+.content > div .company {
+  padding: 0.5em;
+  border-radius: 4px;
+  background-color: black;
+}
+
+@media screen and (min-width: 50em) {
+  .content > h1 {
+    font-size: 4em;
+  }
+
+  .content > div {
+    display: flex;
+  }
+  content > div .benefits {
+    padding: 2em;
+    margin-bottom: 0;
+  }
+  .content > div .company {
+    padding: 2em;
+  }
+}

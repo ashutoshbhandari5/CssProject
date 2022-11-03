@@ -1,3 +1,27 @@
-.nabvbar {
-  position: fixed;
+.navbar {
+  display: block;
+  color: white;
+  width: 100%;
+  padding: 0.8em 0 0.8em 0.5em;
+  background-color: #39cc85;
+}
+.nav-content {
+  display: none;
+}
+
+@media screen and (min-width: 31.5em) {
+  .navbar {
+    padding: 0;
+    padding-left: 0.8em;
+  }
+  .nav-content {
+    display: flex;
+    align-items: center;
+    max-width: 40em;
+    margin: auto;
+  }
+  .nav-content > h1 {
+    font-weight: 500;
+    font-size: 1em;
+  }
 }

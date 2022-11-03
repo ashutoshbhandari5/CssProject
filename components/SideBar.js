@@ -1,11 +1,15 @@
 import React from "react";
-import NavbarPages from "./NavbarPages";
+import NavbarPages from "./common/NavbarPages";
 
-const SideBar = () => {
+const SideBar = ({ sideBar, toggleSideBar }) => {
+  const sideBarVisiblity = sideBar ? "show" : "hidden";
   return (
-    <div className="sidebar">
-      <button className="close"></button>
-      <NavbarPages />
+    <div className={`sidebar ${sideBarVisiblity}`}>
+      <h1>Logistics Company</h1>
+      <button onClick={toggleSideBar} className="close"></button>
+      <div className="links">
+        <NavbarPages />
+      </div>
     </div>
   );
 };

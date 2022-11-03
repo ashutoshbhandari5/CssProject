@@ -1,13 +1,20 @@
 import { useState } from "react";
+import Hero from "../components/Hero";
 import NavBar from "../components/NavBar";
 import SideBar from "../components/SideBar";
 
 export default function Home() {
-  const [sideBar, toggleSideBar] = useState(false);
+  const [sideBar, setSideBar] = useState(false);
+
+  const toggleSideBar = () => {
+    setSideBar((prevState) => !prevState);
+  };
+
   return (
     <div className="home">
-      {sideBar && <SideBar toggleSideBar={toggleSideBar} />}
-      <NavBar toggleSideBar={toggleSideBar} />
+      <SideBar sideBar={sideBar} toggleSideBar={toggleSideBar} />
+      <NavBar sideBar={sideBar} toggleSideBar={toggleSideBar} />
+      <Hero />
     </div>
   );
 }

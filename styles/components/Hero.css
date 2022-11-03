@@ -40,6 +40,10 @@ li {
 }
 
 @media screen and (min-width: 50em) {
+  .content {
+    padding: 0;
+    justify-content: center;
+  }
   .content > h1 {
     font-size: 4em;
   }
@@ -47,11 +51,19 @@ li {
   .content > div {
     display: flex;
   }
-  content > div .benefits {
+
+  .bullets {
     padding: 2em;
-    margin-bottom: 0;
   }
-  .content > div .company {
-    padding: 2em;
+
+  .bullets > h3 {
+    font-size: 2em;
+  }
+
+  .bullets > ul {
+    line-height: 1.7;
+  }
+  .bullet-item {
+    font-size: 1.3em;
   }
 }

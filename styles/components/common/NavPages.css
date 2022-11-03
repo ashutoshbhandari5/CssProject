@@ -16,8 +16,12 @@
 
 @media screen and (min-width: 31.5em) {
   .navPages {
+    border: none;
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+  .navPages > li {
+    border-bottom: none;
   }
 }

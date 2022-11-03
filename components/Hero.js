@@ -8,7 +8,11 @@ const Hero = () => {
         <h3>{item.header}</h3>
         <ul>
           {item.list.map((el, i) => {
-            return <li key={i}>{el}</li>;
+            return (
+              <li className="bullet-item" key={i}>
+                {el}
+              </li>
+            );
           })}
         </ul>
       </div>

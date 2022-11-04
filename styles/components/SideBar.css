@@ -91,3 +91,9 @@
   justify-content: center;
   display: flex;
 }
+
+@media screen and (min-width: 31.5em) {
+  .sidebar {
+    display: none;
+  }
+}

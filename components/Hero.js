@@ -1,5 +1,6 @@
 import React from "react";
 import { benefits, company } from "../utils/lists";
+import About from "./About";
 
 const Hero = () => {
   const renderBullets = (item) => {

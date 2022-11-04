@@ -4,8 +4,8 @@
   background: url("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fGJ1c2luZXNzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 90vh;
-  background-position: center center;
+  height: 100vh;
+  margin-bottom: 1em;
 }
 
 .hero::before {
@@ -22,7 +22,7 @@ li {
   list-style: none;
 }
 .content {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
   height: 100%;

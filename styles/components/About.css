@@ -46,19 +46,31 @@
 .clients {
   background-color: black;
   color: white;
-  padding: 1em;
+  padding: 2em;
   text-align: justify;
 }
-
 .members {
-  padding: 1em 1.5em;
+  margin: 3em 0;
 }
-.members > div {
-  width: 15em;
-  margin-bottom: 2em;
+
+.members > div > h3 {
+  font-size: 2em;
 }
 
 .members > div > button {
+  background-color: #39cc85;
+  border: none;
+  padding: 0.6em 1.8em;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  transition: all ease-in-out 0.1s;
+}
+.members > div > button:focus {
+  outline: none;
+}
+.members > div > button:hover {
+  opacity: 0.8;
 }
 
 @media screen and (min-width: 31.5em) {
@@ -86,5 +98,21 @@
 
   .item:last-child {
     margin-top: 3em;
+  }
+
+  .clients {
+    text-align: center;
+  }
+
+  .members {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .members > div {
+    margin: 0 0.5em;
   }
 }

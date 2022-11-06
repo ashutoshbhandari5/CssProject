@@ -4,6 +4,7 @@ import NavBar from "../components/NavBar";
 import SideBar from "../components/SideBar";
 import About from "../components/About";
 import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 
 export default function Home() {
   const [sideBar, setSideBar] = useState(false);
@@ -19,6 +20,7 @@ export default function Home() {
       <Hero />
       <About />
       <Contact />
+      <Footer />
     </div>
   );
 }

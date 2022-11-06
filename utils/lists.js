@@ -1,5 +1,3 @@
-// import { FcIdea, IoCreateOutline, GiGrowth } from "react-icons/all";
-
 import { FcIdea } from "react-icons/fc";
 import { IoMdCreate } from "react-icons/io";
 import { GiGrowth } from "react-icons/gi";
@@ -48,5 +46,20 @@ export const showCaseList = [
     icon: <GiGrowth style={iconStyle} />,
     header: "Grow it",
     text: "Sample text. Click to select the text box. Click again or double click to start editing the text.",
+  },
+];
+
+export const footerList = [
+  {
+    header: "Discover",
+    items: ["Buy & Sell", "Merchant", "Giving back", "Help & Support"],
+  },
+  {
+    header: "About",
+    items: ["Staff", "Team", "Careers", "Blog"],
+  },
+  {
+    header: "Resources",
+    items: ["Security", "Global", "Charts", "Privacy"],
   },
 ];

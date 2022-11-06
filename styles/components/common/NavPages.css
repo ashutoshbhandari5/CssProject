@@ -5,7 +5,7 @@
 .navPages > li {
   cursor: pointer;
   margin: 0 1em 0 1em;
-  width: 8em;
+  width: 100%;
   text-align: center;
   border-bottom: 1px solid #505050;
 }

@@ -16,6 +16,7 @@
   padding: 1em 3em;
   font-size: 1em;
   cursor: pointer;
+  width: 100%;
 }
 
 .contact button:hover {
@@ -38,6 +39,7 @@
 }
 
 .form > div {
+  width: 100%;
   margin-bottom: 1em;
 }
 
@@ -45,7 +47,7 @@
 textarea {
   color: black;
   border: none;
-  min-width: 20em;
+  width: 100%;
   background-color: #f2f2f2;
   padding: 1em 1.3em;
   border-radius: 5px;
@@ -65,6 +67,10 @@ textarea {
   .contact > h2 {
     text-align: center;
     font-size: 3em;
+  }
+  .contact > botton,
+  .input > input {
+    width: 20em;
   }
   .divider {
     display: flex;

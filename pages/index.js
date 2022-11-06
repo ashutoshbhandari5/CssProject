@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import NavBar from "../components/NavBar";
 import SideBar from "../components/SideBar";
 import About from "../components/About";
+import Contact from "../components/Contact";
 
 export default function Home() {
   const [sideBar, setSideBar] = useState(false);
@@ -17,6 +18,7 @@ export default function Home() {
       <NavBar sideBar={sideBar} toggleSideBar={toggleSideBar} />
       <Hero />
       <About />
+      <Contact />
     </div>
   );
 }

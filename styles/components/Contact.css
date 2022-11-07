@@ -34,7 +34,6 @@
 .form {
   display: flex;
   flex-direction: column;
-  height: 100%;
   width: 100%;
   align-items: center;
   justify-content: center;
@@ -79,7 +78,6 @@ textarea {
 
   .divider {
     display: flex;
-    height: 100%;
     width: 100%;
     justify-content: center;
   }

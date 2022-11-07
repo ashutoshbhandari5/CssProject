@@ -73,7 +73,7 @@
   opacity: 0.8;
 }
 
-@media screen and (min-width: 31.5em) {
+@media screen and (min-width: 600px) {
   .showCase {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -90,7 +90,7 @@
     margin-top: 6em;
   }
 }
-@media screen and (min-width: 50em) {
+@media screen and (min-width: 992px) {
   .showCase {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

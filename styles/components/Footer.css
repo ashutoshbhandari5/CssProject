@@ -17,7 +17,7 @@
   display: none;
 }
 
-@media screen and (min-width: 31.5em) {
+@media screen and (min-width: 600px) {
   .grid-items {
     text-align: center;
     width: 100%;
@@ -32,7 +32,7 @@
     justify-content: center;
   }
 }
-@media screen and (min-width: 50em) {
+@media screen and (min-width: 768px) {
   .footer > div {
     display: flex;
   }

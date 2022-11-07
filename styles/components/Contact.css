@@ -48,13 +48,11 @@
 .input > input,
 textarea {
   color: black;
-  align-self: center;
   border: none;
   width: 100%;
   background-color: #f2f2f2;
   padding: 1em 1.3em;
   border-radius: 5px;
-  text-align: justify;
 }
 
 .input > input:focus,
@@ -64,9 +62,12 @@ textarea {
 
 .checkbox {
   display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
 }
 
-@media screen and (min-width: 50em) {
+@media screen and (min-width: 992px) {
   .contact > h2 {
     text-align: center;
     font-size: 3em;
@@ -83,10 +84,5 @@ textarea {
   }
   .divider > div {
     margin: 3em;
-  }
-}
-@media screen and (min-width: 80em) {
-  .divider {
-    padding: 0 12em;
   }
 }

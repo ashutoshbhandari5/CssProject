@@ -39,7 +39,7 @@ li {
   border-radius: 4px;
 }
 
-@media screen and (min-width: 50em) {
+@media screen and (min-width: 768px) {
   .content {
     padding: 0;
     justify-content: center;

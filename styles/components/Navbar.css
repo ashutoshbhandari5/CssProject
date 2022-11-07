@@ -9,7 +9,7 @@
   display: none;
 }
 
-@media screen and (min-width: 31.5em) {
+@media screen and (min-width: 600px) {
   .navbar {
     padding: 0;
     padding-left: 0.8em;

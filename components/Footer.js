@@ -29,7 +29,7 @@ const Footer = () => {
           })}
         </div>
       </div>
-      <div></div>
+      <div className="reserved">&#169; Logistics, All Rights Reserved.</div>
     </div>
   );
 };

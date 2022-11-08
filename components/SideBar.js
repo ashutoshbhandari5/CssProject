@@ -6,18 +6,22 @@ import { SocialIcon } from "react-social-icons";
 const SideBar = ({ sideBar, toggleSideBar }) => {
   const sideBarVisiblity = sideBar ? "show" : "hidden";
   return (
-    <div className={`sidebar ${sideBarVisiblity}`}>
-      <h1>Logistics Company</h1>
-      <button onClick={toggleSideBar} className="close"></button>
-      <div className="links">
+    <aside className={`sidebar ${sideBarVisiblity}`}>
+      <h1 className="sidebar-header">Logistics Company</h1>
+      <button onClick={toggleSideBar} className="sidebar_close-icon"></button>
+      <div className="sidebar-links">
         <NavbarPages />
       </div>
-      <div className="subscribe">
+      <div className="sidebar-subscribe">
         <p>Subscribe for a newsletter</p>
-        <input type="email" placeholder="Email" />
+        <input
+          className="sidebar-subscribe_input"
+          type="email"
+          placeholder="Email"
+        />
       </div>
-      <p className="connect">Connect with Us</p>
-      <div className="social-network">
+      <p className="sidebar_connect-title">Connect with Us</p>
+      <div className="sidebar_social-network">
         {socialMedia.map((el, i) => (
           <SocialIcon
             style={{ margin: "0.5em", height: 35, width: 35 }}
@@ -27,7 +31,7 @@ const SideBar = ({ sideBar, toggleSideBar }) => {
         ))}
       </div>
       <p className="copyright">&copy; 2022 Logistics </p>
-    </div>
+    </aside>
   );
 };
 

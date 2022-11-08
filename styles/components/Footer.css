@@ -5,11 +5,11 @@
   text-align: justify;
 }
 
-.footer h4 {
+.list-items_header {
   font-size: 2em;
 }
 
-.grid-item p {
+.list-items_info {
   cursor: pointer;
 }
 
@@ -18,7 +18,7 @@
 }
 
 @media screen and (min-width: 600px) {
-  .grid-items {
+  .grid-content {
     text-align: center;
     width: 100%;
     display: grid;
@@ -26,17 +26,17 @@
     justify-content: center;
   }
 
-  .reserved {
+  .copyright {
     display: flex;
     margin-top: 2em;
     justify-content: center;
   }
 }
 @media screen and (min-width: 768px) {
-  .footer > div {
+  .footer-content {
     display: flex;
   }
-  .footer > div > div {
+  .footer-content_item {
     padding: 1em;
   }
 }

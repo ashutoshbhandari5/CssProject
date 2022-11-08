@@ -3,13 +3,13 @@ import NavbarPages from "./common/NavbarPages";
 
 const NavBar = ({ toggleSideBar }) => {
   return (
-    <div className="navbar">
+    <nav className="navbar">
       <Hamburger toggleSideBar={toggleSideBar} />
       <div className="nav-content">
-        <h1>Logistics Company</h1>
+        <h1 className="nav-logo">Logistics Company</h1>
         <NavbarPages />
       </div>
-    </div>
+    </nav>
   );
 };
 

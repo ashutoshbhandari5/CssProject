@@ -9,14 +9,14 @@
   transition: all ease-out 0.3s;
 }
 
-.sidebar > h1 {
+.sidebar-header {
   font-size: 1em;
   margin-top: 1.4em;
   margin-left: 1em;
   max-width: 2em;
 }
 
-.links {
+.sidebar-links {
   display: flex;
   line-height: 4;
 }
@@ -29,7 +29,7 @@
   left: -100%;
 }
 
-.close {
+.sidebar_close-icon {
   cursor: pointer;
   overflow: hidden;
   position: absolute;
@@ -47,8 +47,8 @@
   cursor: pointer;
 }
 
-.close::before,
-.close::after {
+.sidebar_close-icon::before,
+.sidebar_close-icon::after {
   position: absolute;
   top: 15%;
   left: 1em;
@@ -59,20 +59,20 @@
   background: white;
   content: "";
 }
-.close::after {
+.sidebar_close-icon::after {
   transform: rotate(-45deg);
 }
 
-.subscribe {
+.sidebar-subscribe {
   margin-top: 3em;
   text-align: center;
 }
 
-.subscribe > input {
+.sidebar-subscribe_input {
   padding: 0.5em;
 }
 
-.subscribe > input:focus {
+.sidebar-subscribe_input:focus {
   outline: none;
 }
 
@@ -83,11 +83,11 @@
   margin-left: 25%;
 }
 
-.connect {
+.sidebar_connect-title {
   text-align: center;
   margin-top: 5em;
 }
-.social-network {
+.sidebar_social-network {
   margin-top: 1em;
   justify-content: center;
   display: flex;

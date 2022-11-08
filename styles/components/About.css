@@ -4,21 +4,25 @@
   background-color: #f2f2f2;
 }
 
-.showCase {
+.about-header {
+  text-align: center;
+}
+
+.about-content-one {
   padding: 1em;
   text-align: center;
   background-color: white;
   margin-top: 5em;
 }
 
-.item {
+.showcase-item {
   padding: 2em 0;
 }
-.item:not(:first-child) {
+.showcase-item:not(:first-child) {
   margin-top: 3em;
 }
 
-.item > span {
+.showcase-item_icon {
   margin: -7em auto 0;
   padding: 29px;
   display: block;
@@ -31,7 +35,7 @@
   align-items: center;
 }
 
-.item > h4 {
+.showcase-item_header {
   letter-spacing: normal;
   text-transform: none;
   font-size: 1.875rem;
@@ -39,25 +43,25 @@
   margin: 24px auto 0;
 }
 
-.item > p {
+.showcase-item_info {
   color: #999999;
 }
 
-.clients {
+.about-content-two {
   background-color: black;
   color: white;
   padding: 2em;
   text-align: justify;
 }
-.members {
+.clients {
   margin: 3em 0;
 }
 
-.members > div > h3 {
+.clients-item_header {
   font-size: 2em;
 }
 
-.members > div > button {
+.clients-item_btn {
   background-color: #39cc85;
   border: none;
   padding: 0.6em 1.8em;
@@ -66,52 +70,64 @@
   cursor: pointer;
   transition: all ease-in-out 0.1s;
 }
-.members > div > button:focus {
+.clients-item_btn:focus {
   outline: none;
 }
-.members > div > button:hover {
+.clients-item_btn:hover {
   opacity: 0.8;
 }
 
 @media screen and (min-width: 600px) {
-  .showCase {
+  .about-content-one {
     display: grid;
+    gap: 1em;
     grid-template-columns: 1fr 1fr;
   }
 
-  .item {
+  .showcase-item {
     margin-top: 3em;
   }
-  .item > span {
+  .showcase-item_icon {
     margin-top: -10em;
   }
 
-  .item:last-child {
+  .showcase-item:last-child {
     margin-top: 6em;
+  }
+
+  .showcase-item_info {
+    max-width: 25em;
+    margin: 0 auto;
   }
 }
 @media screen and (min-width: 992px) {
-  .showCase {
+  .about-info {
+    max-width: 50em;
+    margin: 0 auto;
+    margin-bottom: 6em;
+  }
+
+  .about-content-one {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
 
-  .item:last-child {
+  .showcase-item:last-child {
     margin-top: 3em;
   }
 
-  .clients {
+  .about-content-two {
     text-align: center;
   }
 
-  .members {
+  .clients {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
-  .members > div {
+  .clients-item {
     margin: 0 0.5em;
   }
 }

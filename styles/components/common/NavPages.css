@@ -1,8 +1,8 @@
-.navPages {
+.navpages {
   list-style: none;
 }
 
-.navPages > li {
+.navpage-item {
   cursor: pointer;
   margin: 0 1em 0 1em;
   width: 100%;
@@ -10,18 +10,18 @@
   border-bottom: 1px solid #505050;
 }
 
-.navPages > li:hover {
+.navpage-item:hover {
   opacity: 0.8;
 }
 
 @media screen and (min-width: 600px) {
-  .navPages {
+  .navpages {
     border: none;
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .navPages > li {
+  .navpage-item {
     width: 100%;
     border-bottom: none;
   }

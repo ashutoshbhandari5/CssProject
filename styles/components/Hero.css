@@ -21,7 +21,7 @@
 li {
   list-style: none;
 }
-.content {
+.hero-content {
   position: relative;
   top: 0;
   left: 0;
@@ -34,36 +34,36 @@ li {
   padding-top: 5em;
 }
 
-.bullets {
+.bullet {
   padding: 0.5em;
   border-radius: 4px;
 }
 
 @media screen and (min-width: 768px) {
-  .content {
+  .hero-content {
     padding: 0;
     justify-content: center;
   }
-  .content > h1 {
+  .hero-content_header {
     font-size: 4em;
   }
 
-  .content > div {
+  .hero-content > div {
     display: flex;
   }
 
-  .bullets {
+  .bullet {
     padding: 2em;
   }
 
-  .bullets > h3 {
+  .bullet-header {
     font-size: 2em;
   }
 
-  .bullets > ul {
+  .bullet-list {
     line-height: 1.7;
   }
-  .bullet-item {
+  .bullet-list_item {
     font-size: 1.3em;
   }
 }

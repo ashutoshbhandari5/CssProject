@@ -4,7 +4,7 @@ import { GiGrowth } from "react-icons/gi";
 
 export const benefits = {
   header: "Benefits",
-  css: "bullets bg-green",
+  css: "bullet bg-green",
   list: [
     "Streamline analytics processes",
     "Embed BI and predictive planning",
@@ -15,7 +15,7 @@ export const benefits = {
 
 export const company = {
   header: "Our Company",
-  css: "bullets bg-black",
+  css: "bullet bg-black",
   list: [
     "Streamline analytics processes",
     "Embed BI and predictive planning",
@@ -61,5 +61,43 @@ export const footerList = [
   {
     header: "Resources",
     items: ["Security", "Global", "Charts", "Privacy"],
+  },
+];
+
+export const navBarLinks = [
+  {
+    name: "Home",
+    link: "/",
+  },
+  {
+    name: "Contact",
+    link: "/contact",
+  },
+  {
+    name: "About",
+    link: "/about",
+  },
+  {
+    name: "Services",
+    link: "/services",
+  },
+];
+
+export const clientMemberList = [
+  {
+    header: "CROLLA",
+    paragraph: "Sample text. Click to select the Text Element.",
+  },
+  {
+    header: "BINANCE",
+    paragraph: "Sample text. Click to select the Text Element.",
+  },
+  {
+    header: "EVGA",
+    paragraph: "Sample text. Click to select the Text Element.",
+  },
+  {
+    header: "TESLA",
+    paragraph: "Sample text. Click to select the Text Element.",
   },
 ];

@@ -2,13 +2,14 @@
   padding: 3em;
   text-align: justify;
 }
-.contact h4 {
+.form-header {
   text-align: center;
   font-size: 1.2em;
   font-weight: 700;
 }
 
-.contact button {
+.contact-btn,
+.form_submit-btn {
   background-color: #39cc85;
   border: none;
   color: white;
@@ -18,15 +19,16 @@
   cursor: pointer;
 }
 
-.form button {
+.form_submit-btn {
   width: 100%;
 }
 
-.contact button:hover {
+.contact-btn:hover,
+.form_submit-btn:hover {
   opacity: 0.8;
 }
 
-.input > label {
+.form-element_label {
   display: block;
   margin: 0.5em 0;
 }
@@ -40,13 +42,13 @@
   margin-top: 1em;
 }
 
-.form > div {
+.form-element,
+.form-element_checkbox {
   width: 100%;
   margin-bottom: 1em;
 }
 
-.input > input,
-textarea {
+.form-element_input {
   color: black;
   border: none;
   width: 100%;
@@ -55,12 +57,11 @@ textarea {
   border-radius: 5px;
 }
 
-.input > input:focus,
-.form textarea {
+.form-element_input:focus {
   outline: none;
 }
 
-.checkbox {
+.form-element_checkbox {
   display: flex;
   height: 100%;
   align-items: center;
@@ -68,7 +69,7 @@ textarea {
 }
 
 @media screen and (min-width: 992px) {
-  .contact > h2 {
+  .contact-header {
     text-align: center;
     font-size: 3em;
   }
@@ -77,12 +78,12 @@ textarea {
     width: 80em;
   }
 
-  .divider {
+  .contact-content {
     display: flex;
     width: 100%;
     justify-content: center;
   }
-  .divider > div {
-    margin: 3em;
+  .content-info {
+    margin: 1em 3em;
   }
 }

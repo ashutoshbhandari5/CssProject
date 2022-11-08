@@ -4,7 +4,7 @@ import { navBarLinks } from "../../utils/lists";
 
 const NavbarPages = () => {
   return (
-    <ul className="navpages">
+    <ul className="navpage">
       {navBarLinks.map((el, i) => {
         return (
           <li className="navpage-item" key={i}>
